@@ -24,7 +24,7 @@ def main(name,n,atribute1,atribute2,people):
 
     if people == 'friends':
         url = 'https://api.twitter.com/1.1/friends/list.json?cursor=-1&screen_name=' + str(name) + '&count=' + str(n)
-    elif people == 'followers'
+    elif people == 'followers':
         url = 'https://api.twitter.com/1.1/followers/list.json?cursor=-1&screen_name=' + str(name) + '&count=' + str(n)
     else:
         print('Bad request')
